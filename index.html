@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css"
     />
+    <link rel="stylesheet" href="./css/stylees.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -31,14 +32,33 @@
         <i class="far fa-arrow-alt-circle-up"></i>
       </div>
     </header>
+    <main class="home">
+      <section id="home__tracks-following" class="box">
+        <span class="description">Latest tracks from people you follow</span>
+        <div class="tracks-following__artist">
+          <div class="artist__column">
+            <img src="./images/Avamax.jpg" class="artist__img" />
+            <span class="artist__name">AVA MAX</span>
+          </div>
+          <div class="artist__column">
+            <img src="./images/Avamax.jpg" class="artist__img" />
+            <span class="artist__name">AVA MAX</span>
+          </div>
+        </div>
+      </section>
+      <section id="home__suggestions" class="box slide-box"></section>
+      <section id="home__charts-50" class="box slide-box"></section>
+      <section id="home__sc-weekly" class="box small-box"></section>
+      <section id="home__sc-upload" class="box small-box"></section>
+    </main>
     <nav class="nav-bar">
       <div class="nav-bar__column">
-        <i class="fas fa-play"></i>
+        <i class="fas fa-play play"></i>
         <div class="nav-bar__music">
           <span class="music-title">Kings & Queens</span>
           <span class="music-artist">AVA MAX</span>
         </div>
-        <i class="fas fa-heart"></i>
+        <i class="fas fa-heart like"></i>
       </div>
       <div class="nav-bar__column">
         <div class="nav-bar__box">
