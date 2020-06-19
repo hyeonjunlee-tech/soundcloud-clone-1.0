@@ -1,0 +1,23 @@
+.status-bar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.status-bar i,
+.status-bar .carrier-name,
+.status-bar .time,
+.status-bar .battery-level {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header {
+  margin-top: 24px;
+}
