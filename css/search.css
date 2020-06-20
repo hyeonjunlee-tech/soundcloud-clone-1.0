@@ -1,6 +1,33 @@
 .search {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.search .background-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-box .icon--huge {
+  font-size: 120px;
+  margin-bottom: 50px;
+  color: #12c2e9;
+  opacity: 0.8;
+}
+
+.background-box span:first-of-type {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #12c2e9;
+  font-weight: 600;
+}
+
+.background-box span:last-of-type {
+  font-size: 16px;
+  color: #12c2e9;
 }
