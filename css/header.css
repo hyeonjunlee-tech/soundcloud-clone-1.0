@@ -13,6 +13,7 @@
 .header .header__title {
   font-size: 18px;
   color: #12c2e9;
+  z-index: 3;
 }
 
 .header .header__upload {
@@ -50,10 +51,11 @@
 
 .header__search {
   position: absolute;
-  top: 50px;
+  top: 29px;
   width: 100%;
   background-color: white;
   border-bottom: 1px solid #59d4ef;
+  z-index: 2;
 }
 
 .header .header__search-box {
