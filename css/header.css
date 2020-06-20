@@ -44,11 +44,16 @@
 }
 
 .header.extend {
-  height: 110px;
+  position: fixed;
+  border: none;
 }
 
 .header__search {
+  position: absolute;
+  top: 50px;
   width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #59d4ef;
 }
 
 .header .header__search-box {
