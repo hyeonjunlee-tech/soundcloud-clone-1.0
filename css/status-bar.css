@@ -7,17 +7,15 @@
   padding: 5px;
   position: fixed;
   top: 0;
+  z-index: 2;
   background-color: white;
 }
 
-.status-bar i,
-.status-bar .carrier-name,
-.status-bar .time,
-.status-bar .battery-level {
+.status-bar__column {
   font-size: 14px;
-  font-weight: 600;
+  color: #59d4ef;
 }
 
-.header {
-  margin-top: 24px;
+.status-bar .time {
+  font-weight: 600;
 }

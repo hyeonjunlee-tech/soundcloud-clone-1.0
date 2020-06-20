@@ -1,0 +1,80 @@
+.header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  margin-top: 24px;
+  background-color: white;
+}
+
+.header .header__title {
+  font-size: 18px;
+  color: #12c2e9;
+}
+
+.header .header__upload {
+  position: absolute;
+  right: 30px;
+  font-size: 24px;
+  color: #12c2e9;
+}
+
+.header .header__account {
+  position: absolute;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #d33a6e;
+  background-color: #eb3f79;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #59d4ef;
+}
+
+.header.extend {
+  height: 110px;
+}
+
+.header__search {
+  width: 100%;
+}
+
+.header .header__search-box {
+  background-color: #59d4ef;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 25px 20px;
+  padding: 12px 10px;
+  border-radius: 12px;
+}
+.header__search-box i {
+  cursor: pointer;
+  color: white;
+}
+.header__search-box input {
+  outline: none;
+  width: 100%;
+  background-color: #59d4ef;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+.header__search-box input::placeholder {
+  color: white;
+  font-size: 16px;
+}
