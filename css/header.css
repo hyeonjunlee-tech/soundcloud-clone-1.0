@@ -8,12 +8,13 @@
   top: 0px;
   margin-top: 24px;
   background-color: white;
+  z-index: 3;
 }
 
 .header .header__title {
   font-size: 18px;
   color: #12c2e9;
-  z-index: 3;
+  z-index: inherit;
 }
 
 .header .header__upload {
