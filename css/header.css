@@ -21,6 +21,7 @@
   right: 30px;
   font-size: 24px;
   color: #12c2e9;
+  cursor: pointer;
 }
 
 .header .header__account {
@@ -36,6 +37,7 @@
   justify-content: center;
   align-items: center;
   font-size: 10px;
+  cursor: pointer;
 }
 
 .header {
