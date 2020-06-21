@@ -55,6 +55,7 @@
   max-height: 406px;
   overflow: hidden;
   position: relative;
+  border: 4px dotted #59d4ef;
 }
 
 .post__album-art .album-art__box img {
@@ -69,6 +70,7 @@
   top: 24px;
   left: 14px;
   z-index: 2;
+  opacity: 0.8;
 }
 
 .album-art__title .title-uploader {
@@ -90,8 +92,8 @@
 
 .album-art__box .album-art__track {
   position: absolute;
-  top: 290px;
-  left: 17px;
+  bottom: 18px;
+  left: 18px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -102,6 +104,7 @@
   justify-content: center;
   align-items: center;
   z-index: 2;
+  opacity: 0.8;
 }
 
 .album-art__track span:first-child {
@@ -133,4 +136,5 @@
   border: 1px solid #59d4ef;
   border-radius: 10%;
   margin-right: 10px;
+  cursor: pointer;
 }

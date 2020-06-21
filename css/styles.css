@@ -6,6 +6,7 @@
 @import "./home.css";
 @import "./stream.css";
 @import "./search.css";
+@import "./library.css";
 
 * {
   box-sizing: border-box;

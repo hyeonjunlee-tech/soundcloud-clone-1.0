@@ -1,0 +1,44 @@
+.library {
+  padding-top: 74px;
+  padding-bottom: 120px;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.library .library__box {
+  margin-top: 15px;
+  background-color: white;
+  color: #59d4ef;
+}
+
+.library__box .box__btn {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #59d4ef;
+}
+
+.library__box .box__btn:last-child {
+  border-bottom: 1px solid #59d4ef;
+}
+
+.library__box .box__btn .btn__column {
+  position: relative;
+  width: 100%;
+}
+
+.library__box .box__btn .btn__column i {
+  font-size: 24px;
+}
+
+.library__box .box__btn .btn__column span {
+  position: absolute;
+  font-size: 18px;
+  left: 70px;
+  top: 2px;
+}
+
+.library__box .box__btn i:last-child {
+  cursor: pointer;
+}
